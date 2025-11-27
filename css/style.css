@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5;
+}
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link{
+text-decoration: none;
+color: #fff;
+}
+.navbar-text {
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts {
+    text-align: right;
+}
+.navbar-phone {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer{
+    background-color: #D7D7D7;
+    padding-top: 56px;
+    padding-bottom: 48x;
+    border-top: 4px solid #3596f5;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.footer-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.footer-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+.footer-text{
+    display: block;
+    color: white;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer-contacts{
+    text-align: left;
+}
+.footer-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    width: 35px;
+    margin-right: 20px;
+}
+.footer-logo2{
+    margin-left:20px;
+    width: 65px;
+}
+.home {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.logo-etaj {
+    margin-left: 1100px;
+   transform:translateY(140px)
+}
+.etaj{
+     margin-left: 420px;
+   transform:translateY(-250px)
+}
+.kv{
+      margin-left: 1100px;
+   transform:translateY(-100px)
+}
